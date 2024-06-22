@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <img href="./Assets/espace.jpg">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Welcome, this is a form to find out a little more about your ideas, thank you for sharing your answers with us!</p>
+    <div>
+    <form action="https://register-demo.freecodecamp.org" method="POST" id="survey-form">
+        <fieldset>
+            <label id="name-label">Enter Your Complete Name: <input id="name" type="text" required name="name" max="45" placeholder="Enter your name"/></label>
+            <label id="email-label">Enter Your Email: <input id="email" type="email" required name="email" placeholder="Enter your email"/></label>
+            <label id="number-label">Age: <input id="number" type="number" required name="number" min="13" max="120" placeholder="Enter your age"/></label>
+        </fieldset>
+        <fieldset>
+            <legend>Are you a beginner or advanced?</legend>
+            <label for="level">
+                <input type="radio" name="level" checked id="begginer" class="inline" value="beg"/>Begginer
+            </label>
+            <label for="level">
+                <input type="radio" name="level"id="intermediated" class="inline" value="int"/>Intermediated
+            </label>
+            <label for="level">
+                <input type="radio" name="level" id="advanced" class="inline" value="ad"/>Advanced
+            </label>
+        </fieldset>
+        <fieldset>
+            
+        <label for="referrer">Are you satisfied with our resources, what can we do to give you a more complete experience?
+          <select id="dropdown" name="drop">
+            <option value="">(select one)</option>
+            <option value="1">Webbinars</option>
+            <option value="2">Valid Certificsations</option>
+            <option value="3">More resources</option>
+            <option value="4">Other</option>
+          </select>
+          <label for="interest">What topics are of your interest?<input type="checkbox" required id="front" name="front" class="inline" value="front" checked/>Front-end</label>
+          <label for="back"><input type="checkbox" id="back" name="back" class="inline" value="back"/>Back-end</label>
+          <label for="js"><input type="checkbox" id="js" name="js" class="inline" value="js"/>JavaScript</label>
+          <label for="frame"><input type="checkbox" id="frame" name="frame" class="inline" value="frame"/>Frameworks</label>
+          <label for="java"><input type="checkbox" id="java" name="java" class="inline" value="java"/>Java</label>
+        <label for="bio">Write us your suggestions
+          <textarea id="bio" rows="3" cols="30" placeholder="we want to read you..." name="textarea"></textarea>
+        </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit"></input>
+    </form>
+</div>
+</body>
+</html>
+
+
+
+
+
+

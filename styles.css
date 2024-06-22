@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*width: 100%;
+    height: 100vh;
+    margin: 0;*/
+    background-image: url("./Assets/espace.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #AF47D2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;  
+}
+
+
+body img {
+    width:100%;
+}
+label {
+    display:block;
+    margin: 0.5rem 0;
+}
+
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 2em;
+  }
+
+  fieldset{
+    border: 0;
+    padding: 2rem 0;
+    border-bottom: 3px solid #BBE9FF;
+  }
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+  input, select, textarea{
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: #FFFED3;
+    min-height: 2em; 
+  }
+
+  .inline {
+    max-width: unset;
+    min-width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  input, textarea{
+    background-color: #FFFED3;
+    border: 1px solid #FFFED3;
+    color: black; 
+  }
+
+  input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3AA6B9;
+    border-color: #BBE9FF;
+  }
+
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+  div{
+    width: 700px;
+    height: 1200px;
+    align-items: center;
+    background-color: #B1AFFF;
+    margin: 50px 0px 0px 320px;
+  }
